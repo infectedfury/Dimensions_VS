@@ -17,9 +17,10 @@ struct FUCharacterTable : public FTableRowBase
 
 public:
 	FUCharacterTable()
-	: Height(0)
-	,Block("Bah")
-	,Weight(0)
+		: Height(0)
+		, Block("Bah")
+		, Weight(0)
+		, Jump(0.0f)
 	{};
 	~FUCharacterTable(){};
 
@@ -32,5 +33,7 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = WEIGHT)
 		int32 Weight;
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = JUMP)
+		float Jump;
 
 };
