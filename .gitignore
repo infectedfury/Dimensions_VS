@@ -1,3 +1,7 @@
 Saved/
 Intermediate/Build/Win64/UE4Editor/Inc/Dimensions/Dimensions.generated.cpp
 Intermediate/
+*.sln
+*.sdf
+*.opensdf
+Build/
