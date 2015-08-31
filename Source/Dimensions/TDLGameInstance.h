@@ -8,6 +8,6 @@
 class DIMENSIONS_API TDLGameInstance
 {
 public:
-	TDLGameInstance();
+	TDLGameInstance(); 
 	~TDLGameInstance();
 };

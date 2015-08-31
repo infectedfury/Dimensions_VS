@@ -3,7 +3,7 @@
 using UnrealBuildTool;
 
 public class Dimensions : ModuleRules
-{
+{ 
 	public Dimensions(TargetInfo Target)
 	{
 		PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore" });

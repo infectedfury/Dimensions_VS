@@ -34,6 +34,6 @@ public:
 		int32 Weight;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = JUMP)
-		float Jump;
+		float Jump; 
 
 };
